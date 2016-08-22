@@ -16,7 +16,7 @@ namespace CasualGamesAssignment
 
         public void Draw(SpriteBatch spriteBatch)
         {
-
+            
         }
     }
 }
