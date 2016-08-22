@@ -39,8 +39,22 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Game1.cs" />
+    <Compile Include="GameObjects\AutoShip.cs" />
+    <Compile Include="GameObjects\Base\SimpleSprite.cs" />
+    <Compile Include="GameObjects\Missile.cs" />
+    <Compile Include="GameObjects\OpponentShip.cs" />
+    <Compile Include="GameObjects\Particle.cs" />
+    <Compile Include="GameObjects\PlayerShip.cs" />
+    <Compile Include="Helper.cs" />
+    <Compile Include="InputEngine.cs" />
+    <Compile Include="MainMenu.cs" />
+    <Compile Include="PlayerAuthentication.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Score.cs" />
+    <Compile Include="ShipInfo.cs" />
+    <Compile Include="ShipUpdate.cs" />
+    <Compile Include="Token.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="MonoGame.Framework">
