@@ -34,6 +34,7 @@ namespace CasualGamesAssignment
         static public List<Score> getScores(int count)
             {
             using (var client = new HttpClient())
+
                 {
                     client.DefaultRequestHeaders.Accept.Clear();
                     client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
