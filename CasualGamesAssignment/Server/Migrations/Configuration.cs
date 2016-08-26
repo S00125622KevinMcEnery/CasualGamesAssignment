@@ -15,6 +15,7 @@ namespace Server.Migrations
             AutomaticMigrationsEnabled = false;
             AutomaticMigrationDataLossAllowed = true;
         }
+
         int i = -1;
         private int NextEmail()
         {
