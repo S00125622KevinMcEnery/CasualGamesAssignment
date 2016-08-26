@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace CasualGamesAssignment
 {
+
     public class ShipInfo
     {
         public Guid ID;

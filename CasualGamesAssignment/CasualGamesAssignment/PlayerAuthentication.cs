@@ -20,6 +20,7 @@ namespace CasualGamesAssignment
 
         static public string PlayerToken = "";
         static public AUTHSTATUS PlayerStatus = AUTHSTATUS.NONE;
+
         // public PlayerAuthentication()
         //  {
         //    baseWebAddress = ConfigurationManager.AppSettings["AzureEndPoint"] as string ?? "";

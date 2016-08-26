@@ -10,6 +10,5 @@ namespace CasualGamesAssignment
     {
         public string PlayerID { get; set; }
         public int Value { get; set; }
-
     }
 }
