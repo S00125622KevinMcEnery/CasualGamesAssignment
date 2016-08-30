@@ -10,6 +10,7 @@ namespace CasualGamesAssignment
 {
     public class InputEngine : GameComponent
     {
+
         private static GamePadState previousPadState;
         private static GamePadState currentPadState;
 
